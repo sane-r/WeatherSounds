@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    color: orangered;
+    font-family: 'Roboto';
+    font-size: 40px;
+    margin-top: 8px;
+}
+
+#actions {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.action-button {
+    text-decoration: none;
+    border: none;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background-position: left center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.action-button:hover {
+    cursor: pointer;
+}
+
+.action-button > img {
+    position: relative;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+}
